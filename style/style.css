@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+section{
+    max-width: 1920px;
+}
+.container {
+    max-width: 1120px;
+    padding: 200px 16px 0;
+    margin: 0 auto 100px;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700px;
+    margin-bottom:52px;
+    font-family: 'Montserrat', sans-serif;
+}
+.block {
+display: flex;
+flex-wrap: wrap;
+}
+.item{
+    max-width: 362px;
+    padding-right: 30px;
+    padding-bottom:52px;
+}
+.image{
+    margin-bottom: 23px;
+    padding: 8px 90px 8px 0;
+}
+.desc {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    text-align: center;
+}
+.button1{
+    width: 280px;
+    height: 45px;
+    background-color: #FFBF00;
+    font-family:'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    border:0;
+}
+.number {
+    font-size: 120px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 100;
+    line-height: 30px;
+    color:#ECECEC;
+    position: relative;
+    right:80px;
+    z-index:-1;
+}
+.underline{
+    position:relative;
+}
+ 
+.underline::before{
+  content: "";
+  position: absolute; 
+  top:35px;
+  width:275px;
+  height: 10px;
+  background: rgba(245, 209, 7, 0.5);
+  z-index: -1;
+}/* Нашел такой способ,есть ведь что-то попроще?*/
